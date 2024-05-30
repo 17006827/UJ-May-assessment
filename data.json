@@ -1,38 +1,42 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Tsundzukani Basil Mahoya",
+        "photo" : "1710947055186.jpg",
+        "phone" : "0791537447",
+        "email" : "mahoyabasil@gmail.com"
     },
+    "contact" : {
+        "phone" : ""
+    },
+
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "University of venda",
+        "photo" : "univen.png",
+        "description" : "The University of Venda (Univen; Venda: Yunivesithi ya Venḓa, Afrikaans: Universiteit van Venda) is a South African comprehensive rural-based institution, located in Thohoyandou in Limpopo province. It was established in 1981 under the then Republic of Venda government."
     },
     "foreignLanguage" : {
-        "language" : "",
+        "language" : "Japanese",
         "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "Hello",
+            "foreignLanguage" : "Konnichiwa"
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "how are you",
+            "foreignLanguage" : "O-genki desu ka?"
         }]
     },
     "favouriteSubjects" : [
         {
-            "name" : "",
-            "description" : ""
+            "name" : "OOP",
+            "description1" : "Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior."
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "Database management",
+            "description2" : "A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS)"
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "System Development module",
+            "description3" : "The Diploma in Systems Development prepares you with knowledge, theory, and methodology of the important disciplines in information technology systems development. Dive into the intricate world of business principles, workflow management, and technological resources"
         }
     ]
 }
