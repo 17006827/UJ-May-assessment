@@ -1,42 +1,43 @@
 {
-    "user" : {
-        "fullName" : "Tsundzukani Basil Mahoya",
-        "photo" : "1710947055186.jpg",
-        "phone" : "0791537447",
-        "email" : "mahoyabasil@gmail.com"
+    "user": {
+        "fullName": "Tsundzukani Basil Mahoya",
+        "photo": "1710947055186.jpg",
+        "phone": "0791537447",
+        "email": "mahoyabasil@gmail.com"
     },
-    "contact" : {
-        "phone" : ""
+    "contact": {
+        "phone": ""
     },
-
-    "education" : {
-        "institutionName" : "University of venda",
-        "photo" : "univen.png",
-        "description" : "The University of Venda (Univen; Venda: Yunivesithi ya Venḓa, Afrikaans: Universiteit van Venda) is a South African comprehensive rural-based institution, located in Thohoyandou in Limpopo province. It was established in 1981 under the then Republic of Venda government."
+    "education": {
+        "institutionName": "University of venda",
+        "photo": "univen.png",
+        "description": "The University of Venda (Univen; Venda: Yunivesithi ya Venḓa, Afrikaans: Universiteit van Venda) is a South African comprehensive rural-based institution, located in Thohoyandou in Limpopo province. It was established in 1981 under the then Republic of Venda government."
     },
-    "foreignLanguage" : {
-        "language" : "Japanese",
-        "phrases" : [{
-            "englishPhrase" : "Hello",
-            "foreignLanguage" : "Konnichiwa"
+    "foreignLanguage": {
+        "language": "Japanese",
+        "phrases": [
+            {
+                "englishPhrase": "Hello",
+                "foreignLanguage": "Konnichiwa"
+            },
+            {
+                "englishPhrase": "how are you",
+                "foreignLanguage": "O-genki desu ka?"
+            }
+        ]
+    },
+    "favouriteSubjects": [
+        {
+            "name": "OOP",
+            "description": "Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior."
         },
         {
-            "englishPhrase" : "how are you",
-            "foreignLanguage" : "O-genki desu ka?"
-        }]
-    },
-    "favouriteSubjects" : [
-        {
-            "name" : "OOP",
-            "description1" : "Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior."
+            "name": "Database management",
+            "description": "A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS)"
         },
         {
-            "name" : "Database management",
-            "description2" : "A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS)"
-        },
-        {
-            "name" : "System Development module",
-            "description3" : "The Diploma in Systems Development prepares you with knowledge, theory, and methodology of the important disciplines in information technology systems development. Dive into the intricate world of business principles, workflow management, and technological resources"
+            "name": "System Development module",
+            "description": "The Diploma in Systems Development prepares you with knowledge, theory, and methodology of the important disciplines in information technology systems development. Dive into the intricate world of business principles, workflow management, and technological resources"
         }
     ]
 }
