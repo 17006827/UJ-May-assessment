@@ -1,7 +1,7 @@
 {
     "user": {
         "fullName": "Tsundzukani Basil Mahoya",
-        "photo": "1710947055186.jpg",
+        "photo": "./1710947055186.jpg",
         "phone": "0791537447",
         "email": "mahoyabasil@gmail.com"
     },
@@ -10,7 +10,7 @@
     },
     "education": {
         "institutionName": "University of venda",
-        "photo": "univen.png",
+        "photo": "./univen.png",
         "description": "The University of Venda (Univen; Venda: Yunivesithi ya Venḓa, Afrikaans: Universiteit van Venda) is a South African comprehensive rural-based institution, located in Thohoyandou in Limpopo province. It was established in 1981 under the then Republic of Venda government."
     },
     "foreignLanguage": {
