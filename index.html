@@ -26,32 +26,46 @@
         </div>
     </section> -->
     <div class="container">
-        <h1>{{user.fullName}}</h1>
-        <div class="col s12 m5">
+        <div class="row">
+            <div class="col-s6">
+              <h1>{{user.fullName}}</h1>
+
+            </div>
+           
+            <div class="col-s6">
             <img src="./1710947055186.jpg" alt="Profile Picture" width="200" height="200">
         </div>
 
-        <p><strong>Phone:</strong> 0791537447</p>
-        <p><strong>Email:</strong> mahoyabasil@gmail.com</p>
-
+        </div>
+       
+       
+        <p><strong>Phone:</strong>{{user.phone}}</p>
+        <p><strong>Email:</strong>{{user.email}}</p>
+        <section class="divider"></section>
         <h2>Education</h2>
         <h3>{{education.institutionName}}</h3>
         <img src="./univen.png" alt="University of Venda">
-        <p>The University of Venda (Univen) is a South African comprehensive rural-based institution, located in
-            Thohoyandou in Limpopo province. It was established in 1981 under the then Republic of Venda government.</p>
+        <p>{{education.description}}</p>
+        <section class="divider"></section>
 
-        <h2>Foreign Language Proficiency</h2>
-        <p><strong>Language:</strong> Japanese</p>
-        <ul>
-            <li><strong>Hello:</strong> Konnichiwa</li>
-            <li><strong>How are you:</strong> O-genki desu ka?</li>
-        </ul>
+<div>
+    <h2>Foreign Language Proficiency</h2>
+        <p><strong>Language: </strong>{{foreignLanguage.language}}</p>
+        {{#each foreignLanguage.phrases}}
+        <h5>{{englishPhrase}}</h5>
+        <h6>{{foreignLanguage}}</h6>
+        {{/each}}
 
+</div>
+
+
+<section class="divider"></section>  
         <div class="favorite-subjects">
             <h2>Favorite Subjects</h2>
             <ol>
 
                 {{#each favouriteSubjects}}
+                
                 <h5>{{name}}</h5>
                 <h7>{{description}}</h7>
                 {{/each}}
